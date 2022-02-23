@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".7"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/coinId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:textSize="8sp"
+                android:layout_marginStart="0dp"
+                android:text="1" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/coin_imageView"
+                android:layout_width="25dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                 />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/coin_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:fontFamily="@font/swissra_bold"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:paddingEnd="4dp"
+                android:text="لايتكوين Litecoin" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coin_price_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:textSize="11sp"
+            android:paddingEnd="6dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="10,544.69"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="11sp"
+            android:textColor="#95989C"
+            android:text="$"
+            android:layout_marginEnd="4dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingEnd="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            >
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="match_parent"
+                android:paddingStart="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow"
+                android:layout_weight="2"
+                />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/coin_trade_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="#80CE13"
+            android:layout_weight="1"
+            android:textSize="11sp"
+            android:gravity="center|start"
+            android:paddingStart="6dp"
+            android:fontFamily="@font/sf_pro_text_light"
+
+            android:textStyle="bold"
+            android:text="8.19%" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

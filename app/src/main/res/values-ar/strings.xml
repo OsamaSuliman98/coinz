@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">coinz</string>
+    <string name="coin_prices">اسعار العملات </string>
+    <string name="title_dashboard">منبه العملات </string>
+    <string name="news_string">اخبار وتقارير</string>
+    <string name="bloch_chain">بلوك\n تشين</string>
+    <string name="e_currency_rates"> اسـعار العملات الالكترونية </string>
+    <string name="last_update">اخر تحديث :</string>
+    <string name="last_update_data">9-19-2018</string>
+    <string name="currency_alarm">منبه العملات  </string>
+    <string name="choice_kind_coin">يرجى اختيـار نوع العملة</string>
+    <string name="choice_alarm">يرجى تحديد قيمة المنبه</string>
+    <string name="add_price">أضف القيمة </string>
+
+    <string-array name="coins">
+        <item>بيتكوين Bitcoin</item>
+        <item>ريبـل Ripple</item>
+        <item>ايثيريوم Ethereum</item>
+    </string-array>
+
+<string-array name="logic">
+        <item> أكبر من </item>
+        <item> أصغر من  </item>
+    </string-array>
+    <string name="biger_than">اكبر من </string>
+    <string name="add_alarm">اضافة منبه </string>
+    <string name="load_more">جاري تحميل المزيد</string>
+    <string name="back">عودة</string>
+    <string name="share">مشاركة</string>
+    <string name="news_details">انتعاش في قيمة العملات الرقمية الرئيسية تمثلت بارتفاع كل من البيتكوين والاثيريوم </string>
+    <string name="share_facebook">مشاركة عبر فيسبوك</string>
+    <string name="coin_news_details">باستثناء عملة الريبل والتي أظهرت أداءاً ضعيفاً طوال الأسابيع القليلة الماضية، فإن العملات الرقمية الرئيسية في السوق بما في ذلك البيتكوين والاثيريوم وكاردانو قد ارتفعت قيمتها. وفي غضون الـ 24 ساعة الماضية، ازداد سعر البيتكوين بنسبة 8% وارتفعت قيمة الإيثر بنسبة 10%، كما وارتفعت قيمة كاردانو بنسبة 15%. وبينما انخفض سعر العملات الثلاث بهامش ضئيل في الثلاث ساعات الماضية، إلا أنهم لا زالوا يسجلون مكاسب يومية كبيرة نسبياً.\n\n
+شعبية البيتكوين \n خلال عملية التصحيحٍ الكبيرة التي حدثت في أوائل كانون الثاني/يناير، هبطت أسعار معظم العملات الرقمية بنسبة أكثر من 50% من أعلى قيمة لها، إلا أنه من ناحية أخرى ازدادت شعبية البيتكوين أكثر. حيث أقبل المستثمرون على العملات الرقمية ذات التقلبات الأقل في الأسعار. وفي ذلك الوقت، ارتفع مؤشر هيمنة البيتكوين إلى 38%، إذ تعافت العملة من أدنى مستوياتها بعد انخفاض بنسبة  32%. وخلال الأسبوع الماضي، انخفض مؤشر هيمنة البيتكوين من 38% إلى 34%، مع انخفاض حجم معاملات البيتكوين اليومية إلى أكثر من النصف، أي من 490.000 إلى 242.000 دولار.
+
+
+
+</string>
+    <string name="smaller_than">اقل من </string>
+</resources>

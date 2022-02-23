@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">coinz</string>
+    <string name="bloch_chain">Bloch \nChain</string>
+    <string name="e_currency_rates">E-currency rates</string>
+    <string name="last_update">Last Update</string>
+    <string name="last_update_data">9-19-2018</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="coin_prices">coins prices </string>
+    <string name="title_dashboard">Coins Alarm</string>
+    <string name="news_string">News and Reports</string>
+    <string name="currency_alarm">Currency Alarm</string>
+    <string name="choice_kind_coin">Choice Kind Coin</string>
+    <string name="choice_alarm">Please select the alarm value</string>
+    <string name="add_price">Add price </string>
+    <string name="add_alarm">Add Alarm </string>
+    <string name="load_more">Loading more</string>
+
+    <string-array name="coins">
+        <item>بيتكوين Bitcoin</item>
+        <item>ريبـل Ripple</item>
+        <item>ايثيريوم Ethereum</item>
+    </string-array>
+
+    <string-array name="logic">
+        <item>bigger than</item>
+        <item>Smaller than </item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="back">Back</string>
+    <string name="share">Share</string>
+    <string name="news_details">A rebound in the value of the major digital currencies was represented by the rise of Bitcoin and Ethereum</string>
+    <string name="share_facebook">Share By Facbook</string>
+    <string name="coin_news_details">ss</string>
+    <string name="biger_than">Biger Than</string>
+    <string name="smaller_than">Smaller Than</string>
+
+</resources>
